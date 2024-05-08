@@ -46,7 +46,7 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
     // Oculta el modal
     spinnerModal.hide();
     // Redirige a la siguiente URL
-    window.location.href = 'https://www.finca.co/jornada-ganadera-mayo-2024/registro-exitoso';
+    window.location.href = 'https://www.contegral.co/registro-exitoso';
   })
   .catch(function(error) {
     // Oculta el modal
