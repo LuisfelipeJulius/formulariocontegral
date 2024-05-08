@@ -20,6 +20,9 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
   
   // Obtiene la fecha actual
   var fechaRegistro = new Date().toLocaleDateString(); // Obtiene solo la fecha
+
+  // Establecer manualmente el valor de origen como "Contegral"
+  var origen = "Contegral";
   
   // Construye el objeto de datos
   var datos = {
@@ -31,7 +34,8 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
     celular: celular,
     departamento: departamento,
     aceptacionTerminos: aceptacionTerminos,
-    fechaRegistro: fechaRegistro // Agrega la fecha de registro
+    fechaRegistro: fechaRegistro, // Agrega la fecha de registro
+    origen: origen
   };
   
   // Envía los datos al webhook
