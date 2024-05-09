@@ -5,6 +5,7 @@
     --verde-finca: #C89425; 
     --amarillo-finca:#FFDD00;
     --texto-finca:#707070;
+}
 
 html,
 body {
@@ -147,14 +148,24 @@ body {
     justify-content: center;
     align-items: center;
   }
+  
   .popup-inner {
     background-color: white;
     padding: 20px;
     border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    overflow: scroll;
   }
-  
 
-
+  #closePopupButton{
+    position: relative;
+    left: 94%;
+    top: 0px;
+    /* right: 100px; */
+    bottom: 0px;
+    color:#00A650;
+  }
 
 
 /** MEDIA QUERYS MEDIA **/
@@ -189,4 +200,3 @@ body {
 
        
  }
-}
