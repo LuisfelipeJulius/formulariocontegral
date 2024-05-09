@@ -41,7 +41,7 @@ body {
         }
 
         .btn-finca{
-            background-color: var(--verde-finca);
+            background-color: var(--verde-finca)!important;
         }
 
         .formulario{
