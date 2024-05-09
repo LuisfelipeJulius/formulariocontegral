@@ -61,6 +61,12 @@ body {
             width: 50vw;
           }
 
+          .campos{
+            padding: 0px 20px;
+            width: 50%;
+          }
+
+
 
 
 /** PREGUNTAS **/
@@ -167,6 +173,16 @@ body {
   }
 
   .columna_dos{
+    width: 100%;
+  }
+
+  .cajaFormulario{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .campos{
+    padding: 0px 20px;
     width: 100%;
   }
 
